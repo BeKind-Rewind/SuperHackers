@@ -139,7 +139,7 @@ p {
 }
 
 .discord {
-    background: #b296e0;
+    background: linear-gradient(135deg, #004AAD, #E2ABFF);
     border: 3px solid #ffffff;
     border-radius: 20px;
     padding: 10px 20px;
@@ -151,7 +151,7 @@ p {
 }
 
 .instagram {
-    background: #ff9a5c;
+    background: linear-gradient(90deg, #8C52FF, #FF914D);
     border: 3px solid #ffffff;
     border-radius: 20px;
     padding: 10px 20px;
@@ -163,7 +163,7 @@ p {
 }
 
 .tiktok {
-    background: #43acf1;
+    background: linear-gradient(90deg, #FE3838, #25D6F5);
     border: 3px solid #ffffff;
     border-radius: 20px;
     padding: 10px 20px;
@@ -175,17 +175,13 @@ p {
 }
 
 .address {
-    font-size: 17px;
-}
-
-.city {
-    font-size: 12px;
+    font-size: 20px;
 }
 
 .phone {
-    font-size: 14px;
+    font-size: 20px;
 }
 
 .email {
-    font-size: 14px;
+    font-size: 20px;
 }
