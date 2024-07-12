@@ -15,10 +15,12 @@ function Home() {
         <h1>Sip & Play</h1>
         <nav>
           <button onClick={() => scrollToSection('about')}>About</button>
-          <button onClick={() => scrollToSection('menu')}>Menu</button>
           <button onClick={() => scrollToSection('events')}>Events</button>
           <button onClick={() => scrollToSection('reservations')}>Reservations</button>
           <button onClick={() => scrollToSection('games')}>Games</button>
+          <button onClick={() => scrollToSection('menu')}>Menu</button>
+          <button onClick={() => scrollToSection('press')}>Press</button>
+          <button onClick={() => scrollToSection('cards')}>Gift Cards</button>
           <button onClick={() => scrollToSection('contact')}>Contact Us</button>
         </nav>
       </header>
@@ -36,11 +38,6 @@ function Home() {
               <img src="/path-to-community-image.jpg" alt="community" />
             </div>
           </div>
-        </section>
-
-        <section id="menu">
-          <h2>Menu</h2>
-          {/* Add menu content here */}
         </section>
 
         <section id="events">
@@ -70,6 +67,21 @@ function Home() {
               <img src="/path-to-family-image.jpg" alt="family pic" />
             </div>
           </div>
+        </section>
+
+        <section id="menu">
+          <h2>Menu</h2>
+          {/* Add menu content here */}
+        </section>
+
+        <section id="press">
+          <h2>Press</h2>
+          {/* Add press content here */}
+        </section>
+
+        <section id="cards">
+          <h2>Gift Cards</h2>
+          {/* Add gift card content here */}
         </section>
 
         <section id="contact">
