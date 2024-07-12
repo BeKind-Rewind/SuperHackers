@@ -5,12 +5,14 @@
     font-family: 'Arial', sans-serif;
     background: linear-gradient(180deg, #c4eca0, #1f906c);
     padding: 20px;
+    text-align: center;
 }
 
 .header {
     display: flex;
-    justify-content: flex-start;
+    justify-content: center;
     align-items: center;
+    flex-direction: column;
     padding: 20px;
 }
 
@@ -19,12 +21,10 @@
     font-size: 50px;
     color: #fff1e1;
     position: relative;
-    text-shadow: -18px 18px 0 #000;
-    margin-right: auto;
 }
 
 .header h1::before {
-    content: "";
+    content: "Sip & Play";
     position: absolute;
     top: 0;
     left: 0;
@@ -57,7 +57,6 @@ nav button:hover {
 
 section {
     margin: 40px 0;
-    text-align: center;
 }
 
 h2 {
