@@ -85,11 +85,27 @@ function Home() {
         </section>
 
         <section id="contact">
-          <h2>Contact Us</h2>
-          <p className="address">471 5TH AVE. BROOKLYN, NY 11215</p>
-          <p className="city">BROOKLYN, NY 11215</p>
+          <h2>LET'S GET IN TOUCH! </h2>
+          <h3>Want to join the Sip & Play community? Click here to join in on all the action on discord:</h3>
+            <a href="https://discord.gg/bdURvWC" target="_blank">
+              <button class="discord">
+                  Discord Server
+              </button>
+            </a>
+          <h3>Follow us on social media to stay up to date on all the fun:</h3>
+            <a href="https://www.instagram.com/sipnplaynyc/" target="_blank">
+                <button class="instagram">
+                    Instagram
+               </button>
+            </a>
+            <a href="https://www.tiktok.com/@sipnplaynycofficial" target="_blank">
+               <button class="tiktok">
+                    TikTok
+               </button>
+            </a>
+          <p className="address">471 5th Ave. Brooklyn, NY 11215</p>
           <p className="phone">718-971-1684</p>
-          <p className="email">SIPNPLAYNYC@GMAIL.COM</p>
+          <p className="email">sipnplaynyc@gmail.com</p>
         </section>
       </main>
     </div>
