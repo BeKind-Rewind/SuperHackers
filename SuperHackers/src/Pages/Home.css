@@ -135,6 +135,34 @@ h3 {
     gap: 20px;
 }
 
+.dropdown{
+    height: 30vh;
+    display: flex;
+    justify-content: space-around;
+    width: 85%;
+    align-items: center;
+}
+
+.families, 
+.couples, 
+.hobbyists {position: relative
+}
+
+.families ul, 
+.couples ul, 
+.hobbyists ul {position: absolute;
+    margin-top: 15px;
+    background-color: white;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    list-style: none;
+
+}
+
 .grid div {
     background: rgba(255, 255, 255, 0.8);
     border-radius: 10px;
