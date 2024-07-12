@@ -1,7 +1,6 @@
 import React from 'react';
 import './Home.css';
 
-
 function Home() {
   const scrollToSection = (id) => {
     const element = document.getElementById(id);
@@ -31,14 +30,6 @@ function Home() {
       <section id="about" className="about-section">
         <h2>About Us</h2>
         <div className="grid">
-          <div>
-            <h3>Coffee stuff</h3>
-            <img src="/path-to-coffee-image.jpg" alt="coffee beans" />
-          </div>
-          <div>
-            <h3>Community stuff</h3>
-            <img src="/path-to-community-image.jpg" alt="community" />
-          </div>
         </div>
       </section>
 

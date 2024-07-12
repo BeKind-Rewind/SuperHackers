@@ -81,6 +81,17 @@ nav button:hover {
     transform: scale(1.1);
 }
 
+
+#about {
+    background-image: url('../images/owner-image.PNG');
+    background-size: cover;
+    background-position: center;
+    margin-left: -1.5rem;
+    margin-right: -1.5rem;
+    height: 20rem;
+}
+
+
 main {
     flex: 1;
 }
