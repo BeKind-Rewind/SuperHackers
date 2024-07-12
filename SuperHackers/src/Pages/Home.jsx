@@ -90,17 +90,31 @@ function Home() {
             <a href="https://www.instagram.com/sipnplaynyc/" target="_blank">
                 <button className="instagram">
                     Instagram
-               </button>
+               </button> 
             </a>
             <a href="https://www.tiktok.com/@sipnplaynycofficial" target="_blank">
                <button className="tiktok">
                     TikTok
                </button>
             </a>
+        </section>
+
+        <section id='info'>
           <p className="address">471 5th Ave. Brooklyn, NY 11215</p>
           <p className="phone">718-971-1684</p>
           <p className="email">sipnplaynyc@gmail.com</p>
+        </section>       
+
+        <section id='inquiries'>
+          <h2>INQUIRIES</h2>
+          <label for="Name">Name: </label>
+            <input type="text" id="Name" name="Name" placeholder="First and Last"></input> <br></br><br></br>
+          <label for="Email">Email: </label>
+            <input type="text" id="Email" name="Email" placeholder="abc@domain.com"></input> <br></br><br></br>
+          <label for="Message">Message: </label><br></br>
+            <textarea id="Message" name="Message" rows="8" cols="50"></textarea>
         </section>
+        
       </main>
     </div>
   );
