@@ -188,45 +188,26 @@ p {
 
 .hours {
     font-size: 20px;
-    color: #000000;
 }
 
 .address {
     font-size: 20px;
-    color: #000000;
 }
 
 .phone {
     font-size: 20px;
-    color: #000000;
 }
 
 .email {
     font-size: 20px;
-    color: #000000;
-}
-
-.container {
-    display: flex;
-}
-
-.contact {
-    height: 300px;
-    width: 1500px;
-    background-color:#534e4e;
-    text-align: center;
 }
 
 .box1 {
     height: 600px;
-    width: 720px;
-    background-color:#E3E0E0;
-    padding: 150px;
 }
 
 .box2 {
     height: 600px;
-    width: 720px;
     background-color:#ffffff;
     padding: 100px;
 }
