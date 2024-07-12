@@ -1,6 +1,7 @@
 import React from 'react';
 import './Home.css';
 
+
 function Home() {
   const scrollToSection = (id) => {
     const element = document.getElementById(id);
@@ -14,31 +15,33 @@ function Home() {
       <header className="header">
         <h1>Sip & Play</h1>
         <nav>
-          <button onClick={() => scrollToSection('about')}>About</button>
-          <button onClick={() => scrollToSection('events')}>Events</button>
-          <button onClick={() => scrollToSection('reservations')}>Reservations</button>
-          <button onClick={() => scrollToSection('games')}>Games</button>
-          <button onClick={() => scrollToSection('menu')}>Menu</button>
-          <button onClick={() => scrollToSection('press')}>Press</button>
-          <button onClick={() => scrollToSection('cards')}>Gift Cards</button>
-          <button onClick={() => scrollToSection('contact')}>Contact Us</button>
+          <button className="about-btn" onClick={() => scrollToSection('about')}>About</button>
+          <button className="events-btn" onClick={() => scrollToSection('events')}>Events</button>
+          <button className="reservations-btn" onClick={() => scrollToSection('reservations')}>Reservations</button>
+          <button className="games-btn" onClick={() => scrollToSection('games')}>Games</button>
+          <button className="menu-btn" onClick={() => scrollToSection('menu')}>Menu</button>
+          <button className="press-btn" onClick={() => scrollToSection('press')}>Press</button>
+          <button className="cards-btn" onClick={() => scrollToSection('cards')}>Gift Cards</button>
+          <button className="contact-btn" onClick={() => scrollToSection('contact')}>Contact Us</button>
         </nav>
+
       </header>
 
       <main>
-        <section id="about">
-          <h2>About Us</h2>
-          <div className="grid">
-            <div>
-              <h3>Coffee stuff</h3>
-              <img src="/path-to-coffee-image.jpg" alt="coffee beans" />
-            </div>
-            <div>
-              <h3>Community stuff</h3>
-              <img src="/path-to-community-image.jpg" alt="community" />
-            </div>
+      <section id="about" className="about-section">
+        <h2>About Us</h2>
+        <div className="grid">
+          <div>
+            <h3>Coffee stuff</h3>
+            <img src="/path-to-coffee-image.jpg" alt="coffee beans" />
           </div>
-        </section>
+          <div>
+            <h3>Community stuff</h3>
+            <img src="/path-to-community-image.jpg" alt="community" />
+          </div>
+        </div>
+      </section>
+
 
         <section id="events">
           <h2>Events</h2>
@@ -88,18 +91,18 @@ function Home() {
           <h2>LET'S GET IN TOUCH! </h2>
           <h3>Want to join the Sip & Play community? Click here to join in on all the action on discord:</h3>
             <a href="https://discord.gg/bdURvWC" target="_blank">
-              <button class="discord">
+              <button className="discord">
                   Discord Server
               </button>
             </a>
           <h3>Follow us on social media to stay up to date on all the fun:</h3>
             <a href="https://www.instagram.com/sipnplaynyc/" target="_blank">
-                <button class="instagram">
+                <button className="instagram">
                     Instagram
                </button>
             </a>
             <a href="https://www.tiktok.com/@sipnplaynycofficial" target="_blank">
-               <button class="tiktok">
+               <button className="tiktok">
                     TikTok
                </button>
             </a>
