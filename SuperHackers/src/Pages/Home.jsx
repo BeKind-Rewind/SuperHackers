@@ -57,19 +57,48 @@ function Home() {
         </section>
 
         <section id="games">
-          <h2>Games</h2>
+          <h2>Popular Games</h2>
+          <nav>
           <div class = "dropdown">
+          <div class = "families">
             <button>Staff Picks for Families</button>
             <ul>
-              <li><a href="#">blah blah blah</a></li>
-              <li><a href="#">blah blah blah</a></li>
-              <li><a href="#">blah blah blah</a></li>
-              <li><a href="#">blah blah blah</a></li>
+              <li><a href="#">Apples to Apples</a></li>
+              <li><a href="#">5 Second Rule</a></li>
+              <li><a href="#">Codenames</a></li>
+              <li><a href="#">King of Tokyo</a></li>
+              <li><a href="#">Sequence</a></li>
+              <li><a href="#">Monopoly</a></li>
             </ul>
           </div>
+          <div class = "couples">
+            <button>Staff Picks for 2 Players</button>
+            <ul>
+              <li><a href="#">Patchwork</a></li>
+              <li><a href="#">Onitama</a></li>
+              <li><a href="#">7 Wonders: Duel</a></li>
+              <li><a href="#">Stratego</a></li>
+              <li><a href="#">Villainous</a></li>
+              <li><a href="#">Memoir 44</a></li>
+            </ul>
+          </div>
+          <div class = "hobbyists">
+            <button>Staff Picks for Board Game Hobbyists</button>
+            <ul>
+              <li><a href="#">Arkham Horror LCG</a></li>
+              <li><a href="#">Spirit Island</a></li>
+              <li><a href="#">Stone Age</a></li>
+              <li><a href="#">Survive: Escape from Atlantis!</a></li>
+              <li><a href="#">Roll for the Galaxy</a></li>
+              <li><a href="#">Agricola</a></li>
+            </ul>
+            </div>
+          </div>
+          </nav>
+
           <div className="grid">
             <div>
-              <h3>All Ages</h3>
+              <h3>All Ages</h3><br></br>
               <img src="/path-to-family-image.jpg" alt="family pic" />
             </div>
           </div>
