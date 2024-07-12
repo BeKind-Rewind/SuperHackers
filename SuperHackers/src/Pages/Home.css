@@ -186,6 +186,11 @@ p {
     transition: transform 0.3s;
 }
 
+.contact{
+    background-color: #464646;
+    text-align: center;
+}
+
 .hours {
     font-size: 20px;
 }
@@ -202,12 +207,20 @@ p {
     font-size: 20px;
 }
 
+.container {
+    display: flex;
+}
+
 .box1 {
     height: 600px;
+    width: 720px;
+    background-color:#c5c5c5;
+    padding: 100px;
 }
 
 .box2 {
     height: 600px;
+    width: 720px;
     background-color:#ffffff;
     padding: 100px;
 }

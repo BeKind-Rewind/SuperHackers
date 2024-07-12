@@ -19,8 +19,6 @@ function Home() {
           <button className="reservations-btn" onClick={() => scrollToSection('reservations')}>Reservations</button>
           <button className="games-btn" onClick={() => scrollToSection('games')}>Games</button>
           <button className="menu-btn" onClick={() => scrollToSection('menu')}>Menu</button>
-          <button className="press-btn" onClick={() => scrollToSection('press')}>Press</button>
-          <button className="cards-btn" onClick={() => scrollToSection('cards')}>Gift Cards</button>
           <button className="contact-btn" onClick={() => scrollToSection('contact')}>Contact Us</button>
         </nav>
 
@@ -60,6 +58,15 @@ function Home() {
 
         <section id="games">
           <h2>Games</h2>
+          <div class = "dropdown">
+            <button>Staff Picks for Families</button>
+            <ul>
+              <li><a href="#">blah blah blah</a></li>
+              <li><a href="#">blah blah blah</a></li>
+              <li><a href="#">blah blah blah</a></li>
+              <li><a href="#">blah blah blah</a></li>
+            </ul>
+          </div>
           <div className="grid">
             <div>
               <h3>All Ages</h3>
@@ -71,16 +78,6 @@ function Home() {
         <section id="menu">
           <h2>Menu</h2>
           {/* Add menu content here */}
-        </section>
-
-        <section id="press">
-          <h2>Press</h2>
-          {/* Add press content here */}
-        </section>
-
-        <section id="cards">
-          <h2>Gift Cards</h2>
-          {/* Add gift card content here */}
         </section>
 
         <div class="contact">
@@ -104,6 +101,19 @@ function Home() {
             </a>
         </div>
 
+      <div class="container">
+        <div class="box1">
+        <section id='info'>
+          <h3>Store Hours:</h3>
+            <p className = "hours" >Sunday: 10am-11pm <br></br>
+              Mon-Thurs: 11am-11pm <br></br>
+              Fri: 11am-midnight <br></br>
+              Sat: 10am-midnight</p> <br></br><br></br><br></br>
+          <p className="address">471 5th Ave. Brooklyn, NY 11215</p><br></br>
+          <p className="phone">718-971-1684</p><br></br>
+          <p className="email">sipnplaynyc@gmail.com</p>
+        </section>  
+      </div>     
 
       <div class="box2">
         <section id='inquiries'>
@@ -115,6 +125,7 @@ function Home() {
           <label for="Message">Message: </label><br></br>
             <textarea id="Message" name="Message" rows="20" cols="50"></textarea>
         </section>
+        </div>
         </div>
 
       </main>
