@@ -19,13 +19,6 @@ body {
     background: linear-gradient(180deg, #c4eca0, #1f906c);
 }
 
-.home {
-    min-height: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    padding: 20px;
-}
 
 .header {
     display: flex;
@@ -91,15 +84,34 @@ nav button:hover {
     height: 20rem;
 }
 
+#owner {
+    background-image: url('../images/mario-background.svg');
+    background-size: cover;
+    background-position: center;
+    margin-left: -1.25rem;
+    margin-right: -1.25rem;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+}
+
+#owner p {
+    text-align: justify;
+    text-align-last: center;
+    margin: 0 auto;
+    max-width: 500px;
+    font-size: 15px;
+    width: 100%;
+    word-wrap: break-word;
+    padding: 20px;
+    color: #000000;
+}
+
 
 main {
     flex: 1;
 }
 
-section {
-    margin: 40px 0;
-    text-align: center;
-}
 
 h2 {
     font-size: 4.5em;

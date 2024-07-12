@@ -31,6 +31,13 @@ function Home() {
         <h2>About Us</h2>
       </section>
 
+      <section id="owner">
+        <p>
+        Founder, Jonathan Li, shares a passion for board games, boba, and delicious food, so he combined them all to become Sip & Play, Park Slope’s first board game cafe. 
+        It is a straightforward concept, come in with your friends and family to play any board game from our library of 500+ games! 
+        We hope when you visit, you also enjoy our coffee, espresso, boba, sandwiches, and snacks!
+        </p>
+      </section>
 
         <section id="events">
           <h2>Events</h2>
