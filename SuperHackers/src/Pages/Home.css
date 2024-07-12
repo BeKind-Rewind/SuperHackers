@@ -107,6 +107,273 @@ nav button:hover {
     color: #000000;
 }
 
+#menu {
+    text-align: center;
+    margin-bottom: -400px;
+  }
+  
+#menu h2 {
+    font-size: 70px;
+}
+
+
+  .menu-buttons {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px; /* Adjusts the space between buttons */
+    margin-top: 20px; /* Adds space between the heading and buttons */
+  }
+  
+  .menu-buttons button {
+    background: #fff1e1;
+    border: 2px solid #000000;
+    border-radius: 20px;
+    padding: 10px 20px;
+    font-family: 'Pluma', sans-serif;
+    font-size: 15.9px;
+    color: #000000;
+    cursor: pointer;
+    transition: transform 0.3s;
+  }
+  
+  .menu-buttons button:hover {
+    transform: scale(1.1);
+  }
+  
+
+  #coffee {
+    padding: 20px;
+    text-align: left;
+    margin-left: 20px; /* Adjust this value to move the section to the left */
+  }
+  
+  #coffee h2 {
+    margin-bottom: 10px; /* Space between the heading and the line */
+    font-size: 36px;
+    text-transform: uppercase;
+    position: relative;
+    left: -20px;
+  }
+  
+  #coffee h2::after {
+    content: "";
+    display: block;
+    width: 50%; /* Adjust this value to control the line length */
+    height: 1px;
+    background: #000;
+    margin-top: 10px;
+    position: absolute;
+    left: 0;
+  }
+  
+  .coffee-menu {
+    display: flex;
+    margin-top: 20px;
+  }
+  
+  .coffee-items, .coffee-prices {
+    display: flex;
+    flex-direction: column;
+    gap: 20px; /* Space between items */
+    text-align: left;
+  }
+  
+  .coffee-items {
+    margin-right: 80px; /* Space between items and prices */
+  }
+  
+  .item-name, .item-price {
+    margin: 0;
+    padding: 5px 0;
+  }
+
+  /* Common styles for all sections */
+.menu {
+  display: flex;
+  margin-top: 20px;
+}
+
+.menu-items, .menu-descriptions, .menu-prices {
+  display: flex;
+  flex-direction: column;
+  gap: 20px; /* Space between items */
+  text-align: left;
+}
+
+.menu-items {
+  margin-right: 80px; /* Space between items and descriptions/prices */
+}
+
+.menu-descriptions {
+  margin-right: 80px; /* Space between descriptions and prices */
+}
+
+.item-name, .item-description, .item-price {
+  margin: 0;
+  padding: 5px 0;
+}
+
+/* Specialty Drinks */
+#specialty {
+  padding: 20px;
+  text-align: left;
+  margin-left: 20px;
+}
+
+#specialty h2 {
+  margin-bottom: 10px;
+  font-size: 36px;
+  text-transform: uppercase;
+  position: relative;
+  left: -20px;
+}
+
+#specialty h2::after {
+  content: "";
+  display: block;
+  width: 50%;
+  height: 1px;
+  background: #000;
+  margin-top: 10px;
+  position: absolute;
+  left: 0;
+}
+
+/* Boba */
+#boba {
+  padding: 20px;
+  text-align: left;
+  margin-left: 20px;
+}
+
+#boba h2 {
+  margin-bottom: 10px;
+  font-size: 36px;
+  text-transform: uppercase;
+  position: relative;
+  left: -20px;
+}
+
+#boba h2::after {
+  content: "";
+  display: block;
+  width: 50%;
+  height: 1px;
+  background: #000;
+  margin-top: 10px;
+  position: absolute;
+  left: 0;
+}
+
+/* Hot Bites */
+#hot-bites {
+  padding: 20px;
+  text-align: left;
+  margin-left: 20px;
+}
+
+#hot-bites h2 {
+  margin-bottom: 10px;
+  font-size: 36px;
+  text-transform: uppercase;
+  position: relative;
+  left: -20px;
+}
+
+#hot-bites h2::after {
+  content: "";
+  display: block;
+  width: 50%;
+  height: 1px;
+  background: #000;
+  margin-top: 10px;
+  position: absolute;
+  left: 0;
+}
+
+/* Sandwiches & Salads */
+#sandwiches {
+  padding: 20px;
+  text-align: left;
+  margin-left: 20px;
+}
+
+#sandwiches h2 {
+  margin-bottom: 10px;
+  font-size: 36px;
+  text-transform: uppercase;
+  position: relative;
+  left: -20px;
+}
+
+#sandwiches h2::after {
+  content: "";
+  display: block;
+  width: 50%;
+  height: 1px;
+  background: #000;
+  margin-top: 10px;
+  position: absolute;
+  left: 0;
+}
+
+/* Seasonal Menu */
+#seasonal {
+  padding: 20px;
+  text-align: left;
+  margin-left: 20px;
+}
+
+#seasonal h2 {
+  margin-bottom: 10px;
+  font-size: 36px;
+  text-transform: uppercase;
+  position: relative;
+  left: -20px;
+}
+
+#seasonal h2::after {
+  content: "";
+  display: block;
+  width: 50%;
+  height: 1px;
+  background: #000;
+  margin-top: 10px;
+  position: absolute;
+  left: 0;
+}
+
+/* Beer & Wine */
+#beer {
+  padding: 20px;
+  text-align: left;
+  margin-left: 20px;
+}
+
+#beer h2 {
+  margin-bottom: 10px;
+  font-size: 36px;
+  text-transform: uppercase;
+  position: relative;
+  left: -20px;
+}
+
+#beer h2::after {
+  content: "";
+  display: block;
+  width: 50%;
+  height: 1px;
+  background: #000;
+  margin-top: 10px;
+  position: absolute;
+  left: 0;
+}
+
+  
+
+
+
 
 main {
     flex: 1;
@@ -196,4 +463,17 @@ p {
 
 .email {
     font-size: 20px;
+}
+
+
+.App-header {
+  text-align: center;
+}
+
+.model-container {
+  width: 300px;
+  height: 300px;
+  margin: 10px;
+  border: 1px solid #ccc;
+  display: inline-block;
 }
