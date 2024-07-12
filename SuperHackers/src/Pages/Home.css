@@ -1,68 +1,111 @@
+/* Home.css */
+@import url('https://fonts.googleapis.com/css2?family=Nourd&family=Pluma&display=swap');
+
 .home {
-    font-family: Arial, sans-serif;
-    max-width: 1200px;
-    margin: 0 auto;
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(180deg, #c4eca0, #1f906c);
     padding: 20px;
-  }
-  
-  .header {
+    text-align: center;
+}
+
+.header {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
-    margin-bottom: 40px;
-  }
-  
-  .header h1 {
-    font-size: 2.5em;
-    color: #4a4a4a;
-  }
-  
-  nav {
+    flex-direction: column;
+    padding: 20px;
+}
+
+.header h1 {
+    font-family: 'Nourd', sans-serif;
+    font-size: 50px;
+    color: #fff1e1;
+    position: relative;
+    text-shadow: -18px 18px 0 #000;
+}
+
+.header h1::before {
+    content: "Sip & Play";
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: transparent;
+    -webkit-text-stroke: 1px black; /* Adjust the thickness as needed */
+}
+
+nav {
     display: flex;
-    gap: 10px;
-  }
-  
-  button {
-    padding: 10px 15px;
-    background-color: #f0f0f0;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: background-color 0.3s;
-  }
-  
-  button:hover {
-    background-color: #e0e0e0;
-  }
-  
-  section {
-    margin-bottom: 40px;
-  }
-  
-  h2 {
-    font-size: 2em;
-    color: #4a4a4a;
-    margin-bottom: 20px;
-  }
-  
-  h3 {
-    font-size: 1.5em;
-    color: #4a4a4a;
-    margin-bottom: 10px;
-  }
-  
-  .grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    flex-wrap: wrap;
     gap: 20px;
-  }
-  
-  img {
+    justify-content: center;
+}
+
+nav button {
+    background: #fff;
+    border: 2px solid #4caf50;
+    border-radius: 20px;
+    padding: 10px 20px;
+    font-family: 'Pluma', sans-serif;
+    font-size: 15.9px;
+    color: #4caf50;
+    cursor: pointer;
+    transition: transform 0.3s;
+}
+
+nav button:hover {
+    transform: scale(1.1);
+}
+
+section {
+    margin: 40px 0;
+}
+
+h2 {
+    font-size: 2.5em;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+h3 {
+    font-size: 2em;
+    color: #fff;
+}
+
+.grid {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.grid div {
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    padding: 20px;
+    max-width: 300px;
+}
+
+img {
     max-width: 100%;
-    height: auto;
-    border-radius: 5px;
-  }
-  
-  p {
-    margin-bottom: 10px;
-  }
+    border-radius: 10px;
+}
+
+p {
+    color: #fff;
+    font-family: 'Nourd', sans-serif;
+}
+
+.address {
+    font-size: 17px;
+}
+
+.city {
+    font-size: 12px;
+}
+
+.phone {
+    font-size: 14px;
+}
+
+.email {
+    font-size: 14px;
+}
