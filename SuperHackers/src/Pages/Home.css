@@ -108,10 +108,6 @@ nav button:hover {
 }
 
 
-main {
-    flex: 1;
-}
-
 
 h2 {
     font-size: 4.5em;
@@ -126,6 +122,12 @@ h3 {
     font-size: 2em;
     color: #000000;
 }
+
+.position {
+    justify-content: center;
+}
+
+
 
 .grid {
     display: flex;
@@ -214,9 +216,24 @@ p {
     transition: transform 0.3s;
 }
 
+.m-bottom {
+    margin-bottom: 1rem;
+}
+
+.m-r {
+    margin-right: 1rem;
+}
+
+.m-l {
+    margin-left: 1rem;
+}
+
+
+
 .contact{
     background-color: #464646;
     text-align: center;
+    padding: 0 2rem 2rem 2rem;
 }
 
 .hours {
@@ -251,4 +268,12 @@ p {
     width: 720px;
     background-color:#ffffff;
     padding: 100px;
+}
+
+card {
+    background-color: #a5b0dd;
+    padding: 2rem 5rem 2rem 5rem;
+    border: 5px solid black;
+    border-radius: 5rem;
+    margin: 0 1rem 0 1rem;
 }
