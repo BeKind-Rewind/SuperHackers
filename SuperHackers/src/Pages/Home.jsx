@@ -29,8 +29,6 @@ function Home() {
       <main>
       <section id="about" className="about-section">
         <h2>About Us</h2>
-        <div className="grid">
-        </div>
       </section>
 
 
