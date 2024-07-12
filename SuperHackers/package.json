@@ -1,6 +1,6 @@
 {
   "name": "superhackers",
-  "private": true,
+  "private": "true",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
@@ -16,7 +16,7 @@
     "react-dom": "^18.3.1",
     "three": "^0.166.1",
 
-    "react-calendar": "^5.0.0",
+    "react-calendar": "^5.0.0"
 
 
   },
