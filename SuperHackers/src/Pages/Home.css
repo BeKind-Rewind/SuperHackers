@@ -171,14 +171,36 @@ p {
     transition: transform 0.3s;
 }
 
+.hours {
+    font-size: 20px;
+    color:#000000;
+}
+
 .address {
     font-size: 20px;
+    color:#000000;
 }
 
 .phone {
     font-size: 20px;
+    color:#000000;
 }
 
 .email {
     font-size: 20px;
+    color:#000000;
+}
+
+.box1 {
+    height: 600px;
+    width: 650px;
+    background-color:#E3E0E0;
+    padding: 100px;
+}
+
+.box2 {
+    height: 600px;
+    width: 650px;
+    background-color:#ffffff;
+    padding: 100px;
 }

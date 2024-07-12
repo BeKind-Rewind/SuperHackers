@@ -99,12 +99,21 @@ function Home() {
             </a>
         </section>
 
+    <div class="container">
+      <div class="box1">
         <section id='info'>
-          <p className="address">471 5th Ave. Brooklyn, NY 11215</p>
-          <p className="phone">718-971-1684</p>
+        <h3>Store Hours:</h3>
+          <p className = "hours" >Sunday: 10am-11pm <br></br>
+            Mon-Thurs: 11am-11pm <br></br>
+            Fri: 11am-midnight <br></br>
+            Sat: 10am-midnight</p> <br></br><br></br>
+          <p className="address">471 5th Ave. Brooklyn, NY 11215</p><br></br>
+          <p className="phone">718-971-1684</p><br></br>
           <p className="email">sipnplaynyc@gmail.com</p>
-        </section>       
+        </section>
+      </div>       
 
+      <div class="box2">
         <section id='inquiries'>
           <h2>INQUIRIES</h2>
           <label for="Name">Name: </label>
@@ -114,7 +123,9 @@ function Home() {
           <label for="Message">Message: </label><br></br>
             <textarea id="Message" name="Message" rows="8" cols="50"></textarea>
         </section>
-        
+        </div>
+       </div>
+
       </main>
     </div>
   );
