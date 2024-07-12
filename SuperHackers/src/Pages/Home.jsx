@@ -83,7 +83,7 @@ function Home() {
           {/* Add gift card content here */}
         </section>
 
-        <section id="contact">
+        <div class="contact">
           <h2>LET'S GET IN TOUCH! </h2>
           <h3>Want to join the Sip & Play community? Click here to join in on all the action on discord:</h3>
             <a href="https://discord.gg/bdURvWC" target="_blank">
@@ -102,34 +102,20 @@ function Home() {
                     TikTok
                </button>
             </a>
-        </section>
+        </div>
 
-    <div class="container">
-      <div class="box1">
-        <section id='info'>
-        <h3>Store Hours:</h3>
-          <p className = "hours" >Sunday: 10am-11pm <br></br>
-            Mon-Thurs: 11am-11pm <br></br>
-            Fri: 11am-midnight <br></br>
-            Sat: 10am-midnight</p> <br></br><br></br>
-          <p className="address">471 5th Ave. Brooklyn, NY 11215</p><br></br>
-          <p className="phone">718-971-1684</p><br></br>
-          <p className="email">sipnplaynyc@gmail.com</p>
-        </section>
-      </div>       
 
       <div class="box2">
         <section id='inquiries'>
-          <h2>INQUIRIES</h2>
+          <h3>INQUIRIES</h3> <br></br>
           <label for="Name">Name: </label>
             <input type="text" id="Name" name="Name" placeholder="First and Last"></input> <br></br><br></br>
           <label for="Email">Email: </label>
             <input type="text" id="Email" name="Email" placeholder="abc@domain.com"></input> <br></br><br></br>
           <label for="Message">Message: </label><br></br>
-            <textarea id="Message" name="Message" rows="8" cols="50"></textarea>
+            <textarea id="Message" name="Message" rows="20" cols="50"></textarea>
         </section>
         </div>
-       </div>
 
       </main>
     </div>
