@@ -40,13 +40,13 @@ nav {
 }
 
 nav button {
-    background: #fff;
-    border: 2px solid #4caf50;
+    background: #fff1e1;
+    border: 2px solid #000000;
     border-radius: 20px;
     padding: 10px 20px;
     font-family: 'Pluma', sans-serif;
     font-size: 15.9px;
-    color: #4caf50;
+    color: #000000;
     cursor: pointer;
     transition: transform 0.3s;
 }
@@ -92,6 +92,42 @@ img {
 p {
     color: #fff;
     font-family: 'Nourd', sans-serif;
+}
+
+.discord {
+    background: #b296e0;
+    border: 3px solid #ffffff;
+    border-radius: 20px;
+    padding: 10px 20px;
+    font-family: 'Pluma', sans-serif;
+    font-size: 25px;
+    color: #ffffff;
+    cursor: pointer;
+    transition: transform 0.3s;
+}
+
+.instagram {
+    background: #ff9a5c;
+    border: 3px solid #ffffff;
+    border-radius: 20px;
+    padding: 10px 20px;
+    font-family: 'Pluma', sans-serif;
+    font-size: 25px;
+    color: #ffffff;
+    cursor: pointer;
+    transition: transform 0.3s;
+}
+
+.tiktok {
+    background: #43acf1;
+    border: 3px solid #ffffff;
+    border-radius: 20px;
+    padding: 10px 20px;
+    font-family: 'Pluma', sans-serif;
+    font-size: 25px;
+    color: #ffffff;
+    cursor: pointer;
+    transition: transform 0.3s;
 }
 
 .address {
