@@ -23,12 +23,9 @@ function Home() {
         <nav>
           <button className="about-btn" onClick={() => scrollToSection('about')}>About</button>
           <button className="events-btn" onClick={() => scrollToSection('events')}>Events</button>
-          <button className="reservations-btn" onClick={() => scrollToSection('reservations')}>Reservations</button>
           <button className="games-btn" onClick={() => scrollToSection('games')}>Games</button>
           <button className="menu-btn" onClick={() => scrollToSection('menu')}>Menu</button>
-          <button className="press-btn" onClick={() => scrollToSection('press')}>Press</button>
-          <button className="cards-btn" onClick={() => scrollToSection('cards')}>Gift Cards</button>
-          <button className="contact-btn" onClick={() => scrollToSection('contact')}>Contact Us</button>
+          <button className="contact-btn" onClick={() => scrollToSection('contacts')}>Contact Us</button>
         </nav>
 
       </header>
@@ -46,7 +43,7 @@ function Home() {
           </p>
         </section>
   
-        <div >
+        <div id = "events" >
           <h2>Events</h2>
           <div className='container position'>
             <card >
@@ -109,7 +106,7 @@ function Home() {
           <h2>Menu</h2>
           {/* Add menu content here */}
         </section>
-
+        <div id = "contacts">
         <div className="contact">
           <h2 className='m-top'>LET'S GET IN TOUCH!</h2>
           <h3 className="m-bottom">Want to join the Sip & Play community? Click here to join in on all the action on discord:</h3>
@@ -129,6 +126,7 @@ function Home() {
                     TikTok
                </button>
             </a>
+        </div>
         </div>
 
         <div className="container">
