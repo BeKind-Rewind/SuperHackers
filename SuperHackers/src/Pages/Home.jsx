@@ -66,8 +66,8 @@ function Home() {
           
           <h2>Popular Games</h2>
           <nav>
-          <div class = "dropdown">
-          <div class = "families">
+          <div className = "dropdown">
+          <div className = "families">
 
             <button>Staff Picks for Families</button>
             <ul>
@@ -79,7 +79,7 @@ function Home() {
               <li><a href="#">Monopoly</a></li>
             </ul>
           </div>
-          <div class = "couples">
+          <div className = "couples">
             <button>Staff Picks for 2 Players</button>
             <ul>
               <li><a href="#">Patchwork</a></li>
@@ -90,7 +90,7 @@ function Home() {
               <li><a href="#">Memoir 44</a></li>
             </ul>
           </div>
-          <div class = "hobbyists">
+          <div className = "hobbyists">
             <button>Staff Picks for Board Game Hobbyists</button>
             <ul>
               <li><a href="#">Arkham Horror LCG</a></li>
@@ -103,13 +103,6 @@ function Home() {
             </div>
           </div>
           </nav>
-
-          <div className="grid">
-            <div>
-              <h3>All Ages</h3><br></br>
-              <img src="/path-to-family-image.jpg" alt="family pic" />
-            </div>
-          </div>
         </section>
 
         <section id="menu">
