@@ -13,7 +13,7 @@ const scrollToSection = (id) => {
   return (
     <div className="home">
     <header className="header">
-      <h1>Sip N Play</h1>
+      <h1>Sip & Play</h1>
       <nav>
         <button onClick={() => scrollToSection('about')}>About</button>
         <button onClick={() => scrollToSection('menu')}>Menu</button>
