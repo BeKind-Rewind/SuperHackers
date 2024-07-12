@@ -375,10 +375,6 @@ nav button:hover {
 
 
 
-main {
-    flex: 1;
-}
-
 
 h2 {
     font-size: 4.5em;
@@ -391,13 +387,47 @@ h2 {
 
 h3 {
     font-size: 2em;
-    color: #fff;
+    color: #000000;
 }
+
+.position {
+    justify-content: center;
+}
+
+
 
 .grid {
     display: flex;
     justify-content: center;
     gap: 20px;
+}
+
+.dropdown{
+    height: 30vh;
+    display: flex;
+    justify-content: space-around;
+    width: 85%;
+    align-items: center;
+}
+
+.families, 
+.couples, 
+.hobbyists {position: relative
+}
+
+.families ul, 
+.couples ul, 
+.hobbyists ul {position: absolute;
+    margin-top: 15px;
+    background-color: white;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    list-style: none;
+
 }
 
 .grid div {
@@ -453,6 +483,30 @@ p {
     transition: transform 0.3s;
 }
 
+.m-bottom {
+    margin-bottom: 1rem;
+}
+
+.m-r {
+    margin-right: 1rem;
+}
+
+.m-l {
+    margin-left: 1rem;
+}
+
+
+
+.contact{
+    background-color: #464646;
+    text-align: center;
+    padding: 0 2rem 2rem 2rem;
+}
+
+.hours {
+    font-size: 20px;
+}
+
 .address {
     font-size: 20px;
 }
@@ -466,6 +520,7 @@ p {
 }
 
 
+
 .App-header {
   text-align: center;
 }
@@ -476,4 +531,30 @@ p {
   margin: 10px;
   border: 1px solid #ccc;
   display: inline-block;
+
+.container {
+    display: flex;
+}
+
+.box1 {
+    height: 600px;
+    width: 720px;
+    background-color:#c5c5c5;
+    padding: 100px;
+}
+
+.box2 {
+    height: 600px;
+    width: 720px;
+    background-color:#ffffff;
+    padding: 100px;
+}
+
+card {
+    background-color: #a5b0dd;
+    padding: 2rem 5rem 2rem 5rem;
+    border: 5px solid black;
+    border-radius: 5rem;
+    margin: 0 1rem 0 1rem;
+
 }
